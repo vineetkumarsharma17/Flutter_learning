@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
     final int a=30;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter app"),
+        title: Text("Flutter app by vk"),
       ),
       body: Container(
         child: Center(
