@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app1_video/widgets/drawer.dart';
 class HomePage extends StatelessWidget {
 
   @override
@@ -13,11 +14,7 @@ class HomePage extends StatelessWidget {
           child: Text("Welcome to $a days code."),
         ),
       ),
-      drawer: Drawer(
-        child: Center(
-          child: Text("This is drawer."),
-        ),
-      ),
+      drawer: MyDrawer(),
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
